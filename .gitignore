@@ -35,9 +35,9 @@
 # 自動生成された VS/MD/Consulo ソリューションおよびプロジェクト ファイル
 エクスポートされたオブジェクト/
 .consulo/
-*.csproj
+#*.csproj
 *.unityプロジェクト
-*.sln
+#*.sln
 *.suo
 *.tmp
 *。ユーザー
