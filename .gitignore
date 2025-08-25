@@ -1,0 +1,77 @@
+# https://www.toptal.com/developers/gitignore/api/unity によって作成されました
+# https://www.toptal.com/developers/gitignore?templates=unity で編集
+
+＃＃＃ 団結 ＃＃＃
+# この.gitignoreファイルはUnityプロジェクトディレクトリのルートに配置する必要があります
+#
+# https://github.com/github/gitignore/blob/main/Unity.gitignore から最新版を入手してください
+/[Ll]ライブラリ/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]建物/
+/[Bb]建物/
+/[L]logs/
+/[Uu]ser[Ss]settings/
+
+# MemoryCaptures のサイズが大きくなりすぎることがあります。
+# 非常に機密性の高いデータが含まれている可能性もある
+/[Mm]emoryCaptures/
+
+# 録画のサイズが大きくなりすぎることがあります
+/[Rr]録音/
+
+# アセットストアツールプラグインを無視したい場合はこの行のコメントを解除してください
+# /[Aa]ssets/アセットストアツール*
+
+# 自動生成された Jetbrains Rider プラグイン
+/[Aa]ssets/プラグイン/エディター/JetBrains*
+
+# Visual Studio キャッシュディレクトリ
+.vs/
+
+# Gradle キャッシュディレクトリ
+.gradle/
+
+# 自動生成された VS/MD/Consulo ソリューションおよびプロジェクト ファイル
+エクスポートされたオブジェクト/
+.consulo/
+*.csproj
+*.unityプロジェクト
+*.sln
+*.suo
+*.tmp
+*。ユーザー
+*.ユーザー設定
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D で生成されたメタファイル
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# クラッシュレポートのUnity3D生成ファイル
+sysinfo.txt
+
+# ビルド
+*.apk
+*.aab
+*.unityパッケージ
+*。アプリ
+
+# Crashlytics 生成ファイル
+crashlytics-build.properties
+
+# パックされたアドレス可能要素
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# 一時的に自動生成された Android アセット
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# https://www.toptal.com/developers/gitignore/api/unity の終わり
